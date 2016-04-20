@@ -7,17 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		533120B41CC738420032BF00 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 533120B31CC738420032BF00 /* HomeViewController.swift */; };
 		53DD00EA1CBF322E0062B6AE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53DD00E91CBF322E0062B6AE /* AppDelegate.swift */; };
-		53DD00EC1CBF322E0062B6AE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53DD00EB1CBF322E0062B6AE /* ViewController.swift */; };
 		53DD00EF1CBF322E0062B6AE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 53DD00ED1CBF322E0062B6AE /* Main.storyboard */; };
 		53DD00F11CBF322E0062B6AE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 53DD00F01CBF322E0062B6AE /* Assets.xcassets */; };
 		53DD00F41CBF322E0062B6AE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 53DD00F21CBF322E0062B6AE /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		533120B31CC738420032BF00 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		53DD00E61CBF322E0062B6AE /* ConvenientBiZhi-Swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ConvenientBiZhi-Swift.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		53DD00E91CBF322E0062B6AE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		53DD00EB1CBF322E0062B6AE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		53DD00EE1CBF322E0062B6AE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		53DD00F01CBF322E0062B6AE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		53DD00F31CBF322E0062B6AE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -35,10 +35,51 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		533120AE1CC738150032BF00 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		533120AF1CC738150032BF00 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				533120B31CC738420032BF00 /* HomeViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		533120B01CC738150032BF00 /* Libs */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Libs;
+			sourceTree = "<group>";
+		};
+		533120B11CC738150032BF00 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		533120B21CC738150032BF00 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		53DD00DD1CBF322E0062B6AE = {
 			isa = PBXGroup;
 			children = (
 				53DD00E81CBF322E0062B6AE /* ConvenientBiZhi-Swift */,
+				533120B21CC738150032BF00 /* View */,
+				533120B11CC738150032BF00 /* Model */,
+				533120AF1CC738150032BF00 /* Controller */,
+				533120AE1CC738150032BF00 /* Common */,
+				533120B01CC738150032BF00 /* Libs */,
 				53DD00E71CBF322E0062B6AE /* Products */,
 			);
 			sourceTree = "<group>";
@@ -55,7 +96,6 @@
 			isa = PBXGroup;
 			children = (
 				53DD00E91CBF322E0062B6AE /* AppDelegate.swift */,
-				53DD00EB1CBF322E0062B6AE /* ViewController.swift */,
 				53DD00ED1CBF322E0062B6AE /* Main.storyboard */,
 				53DD00F01CBF322E0062B6AE /* Assets.xcassets */,
 				53DD00F21CBF322E0062B6AE /* LaunchScreen.storyboard */,
@@ -135,8 +175,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				53DD00EC1CBF322E0062B6AE /* ViewController.swift in Sources */,
 				53DD00EA1CBF322E0062B6AE /* AppDelegate.swift in Sources */,
+				533120B41CC738420032BF00 /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -286,6 +326,7 @@
 				53DD01101CBF322E0062B6AE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
