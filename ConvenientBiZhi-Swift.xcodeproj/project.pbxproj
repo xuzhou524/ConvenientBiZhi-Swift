@@ -8,6 +8,20 @@
 
 /* Begin PBXBuildFile section */
 		533120B41CC738420032BF00 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 533120B31CC738420032BF00 /* HomeViewController.swift */; };
+		53B17AAA1CCDC6C6001D605A /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 53B17A901CCDC6C6001D605A /* LICENSE */; };
+		53B17AAB1CCDC6C6001D605A /* MASCompositeConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 53B17A931CCDC6C6001D605A /* MASCompositeConstraint.m */; };
+		53B17AAC1CCDC6C6001D605A /* MASConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 53B17A961CCDC6C6001D605A /* MASConstraint.m */; };
+		53B17AAD1CCDC6C6001D605A /* MASConstraintMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = 53B17A981CCDC6C6001D605A /* MASConstraintMaker.m */; };
+		53B17AAE1CCDC6C6001D605A /* MASLayoutConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 53B17A9A1CCDC6C6001D605A /* MASLayoutConstraint.m */; };
+		53B17AAF1CCDC6C6001D605A /* MASViewAttribute.m in Sources */ = {isa = PBXBuildFile; fileRef = 53B17A9E1CCDC6C6001D605A /* MASViewAttribute.m */; };
+		53B17AB01CCDC6C6001D605A /* MASViewConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 53B17AA01CCDC6C6001D605A /* MASViewConstraint.m */; };
+		53B17AB11CCDC6C6001D605A /* NSArray+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 53B17AA21CCDC6C6001D605A /* NSArray+MASAdditions.m */; };
+		53B17AB21CCDC6C6001D605A /* NSLayoutConstraint+MASDebugAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 53B17AA51CCDC6C6001D605A /* NSLayoutConstraint+MASDebugAdditions.m */; };
+		53B17AB31CCDC6C6001D605A /* View+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 53B17AA71CCDC6C6001D605A /* View+MASAdditions.m */; };
+		53B17AB41CCDC6C6001D605A /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 53B17AA91CCDC6C6001D605A /* README.md */; };
+		53B17AC21CCDC8C8001D605A /* YSLCardView.m in Sources */ = {isa = PBXBuildFile; fileRef = 53B17ABF1CCDC8C8001D605A /* YSLCardView.m */; };
+		53B17AC31CCDC8C8001D605A /* YSLDraggableCardContainer.m in Sources */ = {isa = PBXBuildFile; fileRef = 53B17AC11CCDC8C8001D605A /* YSLDraggableCardContainer.m */; };
+		53B17AC61CCDC8E3001D605A /* CardView.m in Sources */ = {isa = PBXBuildFile; fileRef = 53B17AC51CCDC8E3001D605A /* CardView.m */; };
 		53DD00EA1CBF322E0062B6AE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53DD00E91CBF322E0062B6AE /* AppDelegate.swift */; };
 		53DD00EF1CBF322E0062B6AE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 53DD00ED1CBF322E0062B6AE /* Main.storyboard */; };
 		53DD00F11CBF322E0062B6AE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 53DD00F01CBF322E0062B6AE /* Assets.xcassets */; };
@@ -16,6 +30,38 @@
 
 /* Begin PBXFileReference section */
 		533120B31CC738420032BF00 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		53B17A8E1CCDBEA0001D605A /* ConvenientBiZhi.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ConvenientBiZhi.h; sourceTree = "<group>"; };
+		53B17A901CCDC6C6001D605A /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		53B17A921CCDC6C6001D605A /* MASCompositeConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASCompositeConstraint.h; sourceTree = "<group>"; };
+		53B17A931CCDC6C6001D605A /* MASCompositeConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASCompositeConstraint.m; sourceTree = "<group>"; };
+		53B17A941CCDC6C6001D605A /* MASConstraint+Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MASConstraint+Private.h"; sourceTree = "<group>"; };
+		53B17A951CCDC6C6001D605A /* MASConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASConstraint.h; sourceTree = "<group>"; };
+		53B17A961CCDC6C6001D605A /* MASConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASConstraint.m; sourceTree = "<group>"; };
+		53B17A971CCDC6C6001D605A /* MASConstraintMaker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASConstraintMaker.h; sourceTree = "<group>"; };
+		53B17A981CCDC6C6001D605A /* MASConstraintMaker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASConstraintMaker.m; sourceTree = "<group>"; };
+		53B17A991CCDC6C6001D605A /* MASLayoutConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASLayoutConstraint.h; sourceTree = "<group>"; };
+		53B17A9A1CCDC6C6001D605A /* MASLayoutConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASLayoutConstraint.m; sourceTree = "<group>"; };
+		53B17A9B1CCDC6C6001D605A /* Masonry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Masonry.h; sourceTree = "<group>"; };
+		53B17A9C1CCDC6C6001D605A /* MASUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASUtilities.h; sourceTree = "<group>"; };
+		53B17A9D1CCDC6C6001D605A /* MASViewAttribute.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASViewAttribute.h; sourceTree = "<group>"; };
+		53B17A9E1CCDC6C6001D605A /* MASViewAttribute.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASViewAttribute.m; sourceTree = "<group>"; };
+		53B17A9F1CCDC6C6001D605A /* MASViewConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASViewConstraint.h; sourceTree = "<group>"; };
+		53B17AA01CCDC6C6001D605A /* MASViewConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASViewConstraint.m; sourceTree = "<group>"; };
+		53B17AA11CCDC6C6001D605A /* NSArray+MASAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+MASAdditions.h"; sourceTree = "<group>"; };
+		53B17AA21CCDC6C6001D605A /* NSArray+MASAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+MASAdditions.m"; sourceTree = "<group>"; };
+		53B17AA31CCDC6C6001D605A /* NSArray+MASShorthandAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+MASShorthandAdditions.h"; sourceTree = "<group>"; };
+		53B17AA41CCDC6C6001D605A /* NSLayoutConstraint+MASDebugAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSLayoutConstraint+MASDebugAdditions.h"; sourceTree = "<group>"; };
+		53B17AA51CCDC6C6001D605A /* NSLayoutConstraint+MASDebugAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSLayoutConstraint+MASDebugAdditions.m"; sourceTree = "<group>"; };
+		53B17AA61CCDC6C6001D605A /* View+MASAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "View+MASAdditions.h"; sourceTree = "<group>"; };
+		53B17AA71CCDC6C6001D605A /* View+MASAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "View+MASAdditions.m"; sourceTree = "<group>"; };
+		53B17AA81CCDC6C6001D605A /* View+MASShorthandAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "View+MASShorthandAdditions.h"; sourceTree = "<group>"; };
+		53B17AA91CCDC6C6001D605A /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		53B17ABE1CCDC8C8001D605A /* YSLCardView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YSLCardView.h; sourceTree = "<group>"; };
+		53B17ABF1CCDC8C8001D605A /* YSLCardView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YSLCardView.m; sourceTree = "<group>"; };
+		53B17AC01CCDC8C8001D605A /* YSLDraggableCardContainer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YSLDraggableCardContainer.h; sourceTree = "<group>"; };
+		53B17AC11CCDC8C8001D605A /* YSLDraggableCardContainer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YSLDraggableCardContainer.m; sourceTree = "<group>"; };
+		53B17AC41CCDC8E3001D605A /* CardView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CardView.h; sourceTree = "<group>"; };
+		53B17AC51CCDC8E3001D605A /* CardView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CardView.m; sourceTree = "<group>"; };
 		53DD00E61CBF322E0062B6AE /* ConvenientBiZhi-Swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ConvenientBiZhi-Swift.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		53DD00E91CBF322E0062B6AE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		53DD00EE1CBF322E0062B6AE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -53,6 +99,10 @@
 		533120B01CC738150032BF00 /* Libs */ = {
 			isa = PBXGroup;
 			children = (
+				53B17AC41CCDC8E3001D605A /* CardView.h */,
+				53B17AC51CCDC8E3001D605A /* CardView.m */,
+				53B17ABD1CCDC8C8001D605A /* YSLDraggableCardContainer */,
+				53B17A8F1CCDC6C6001D605A /* Masonry */,
 			);
 			path = Libs;
 			sourceTree = "<group>";
@@ -69,6 +119,57 @@
 			children = (
 			);
 			path = View;
+			sourceTree = "<group>";
+		};
+		53B17A8F1CCDC6C6001D605A /* Masonry */ = {
+			isa = PBXGroup;
+			children = (
+				53B17A901CCDC6C6001D605A /* LICENSE */,
+				53B17A911CCDC6C6001D605A /* Masonry */,
+				53B17AA91CCDC6C6001D605A /* README.md */,
+			);
+			path = Masonry;
+			sourceTree = "<group>";
+		};
+		53B17A911CCDC6C6001D605A /* Masonry */ = {
+			isa = PBXGroup;
+			children = (
+				53B17A921CCDC6C6001D605A /* MASCompositeConstraint.h */,
+				53B17A931CCDC6C6001D605A /* MASCompositeConstraint.m */,
+				53B17A941CCDC6C6001D605A /* MASConstraint+Private.h */,
+				53B17A951CCDC6C6001D605A /* MASConstraint.h */,
+				53B17A961CCDC6C6001D605A /* MASConstraint.m */,
+				53B17A971CCDC6C6001D605A /* MASConstraintMaker.h */,
+				53B17A981CCDC6C6001D605A /* MASConstraintMaker.m */,
+				53B17A991CCDC6C6001D605A /* MASLayoutConstraint.h */,
+				53B17A9A1CCDC6C6001D605A /* MASLayoutConstraint.m */,
+				53B17A9B1CCDC6C6001D605A /* Masonry.h */,
+				53B17A9C1CCDC6C6001D605A /* MASUtilities.h */,
+				53B17A9D1CCDC6C6001D605A /* MASViewAttribute.h */,
+				53B17A9E1CCDC6C6001D605A /* MASViewAttribute.m */,
+				53B17A9F1CCDC6C6001D605A /* MASViewConstraint.h */,
+				53B17AA01CCDC6C6001D605A /* MASViewConstraint.m */,
+				53B17AA11CCDC6C6001D605A /* NSArray+MASAdditions.h */,
+				53B17AA21CCDC6C6001D605A /* NSArray+MASAdditions.m */,
+				53B17AA31CCDC6C6001D605A /* NSArray+MASShorthandAdditions.h */,
+				53B17AA41CCDC6C6001D605A /* NSLayoutConstraint+MASDebugAdditions.h */,
+				53B17AA51CCDC6C6001D605A /* NSLayoutConstraint+MASDebugAdditions.m */,
+				53B17AA61CCDC6C6001D605A /* View+MASAdditions.h */,
+				53B17AA71CCDC6C6001D605A /* View+MASAdditions.m */,
+				53B17AA81CCDC6C6001D605A /* View+MASShorthandAdditions.h */,
+			);
+			path = Masonry;
+			sourceTree = "<group>";
+		};
+		53B17ABD1CCDC8C8001D605A /* YSLDraggableCardContainer */ = {
+			isa = PBXGroup;
+			children = (
+				53B17ABE1CCDC8C8001D605A /* YSLCardView.h */,
+				53B17ABF1CCDC8C8001D605A /* YSLCardView.m */,
+				53B17AC01CCDC8C8001D605A /* YSLDraggableCardContainer.h */,
+				53B17AC11CCDC8C8001D605A /* YSLDraggableCardContainer.m */,
+			);
+			path = YSLDraggableCardContainer;
 			sourceTree = "<group>";
 		};
 		53DD00DD1CBF322E0062B6AE = {
@@ -100,6 +201,7 @@
 				53DD00F01CBF322E0062B6AE /* Assets.xcassets */,
 				53DD00F21CBF322E0062B6AE /* LaunchScreen.storyboard */,
 				53DD00F51CBF322E0062B6AE /* Info.plist */,
+				53B17A8E1CCDBEA0001D605A /* ConvenientBiZhi.h */,
 			);
 			path = "ConvenientBiZhi-Swift";
 			sourceTree = "<group>";
@@ -164,6 +266,7 @@
 			files = (
 				53DD00F41CBF322E0062B6AE /* LaunchScreen.storyboard in Resources */,
 				53DD00F11CBF322E0062B6AE /* Assets.xcassets in Resources */,
+				53B17AAA1CCDC6C6001D605A /* LICENSE in Resources */,
 				53DD00EF1CBF322E0062B6AE /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -175,8 +278,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				53B17AC31CCDC8C8001D605A /* YSLDraggableCardContainer.m in Sources */,
+				53B17AAC1CCDC6C6001D605A /* MASConstraint.m in Sources */,
+				53B17AAF1CCDC6C6001D605A /* MASViewAttribute.m in Sources */,
+				53B17AAD1CCDC6C6001D605A /* MASConstraintMaker.m in Sources */,
+				53B17AB21CCDC6C6001D605A /* NSLayoutConstraint+MASDebugAdditions.m in Sources */,
 				53DD00EA1CBF322E0062B6AE /* AppDelegate.swift in Sources */,
+				53B17AAB1CCDC6C6001D605A /* MASCompositeConstraint.m in Sources */,
+				53B17AC21CCDC8C8001D605A /* YSLCardView.m in Sources */,
+				53B17AB41CCDC6C6001D605A /* README.md in Sources */,
+				53B17AB31CCDC6C6001D605A /* View+MASAdditions.m in Sources */,
+				53B17AB11CCDC6C6001D605A /* NSArray+MASAdditions.m in Sources */,
+				53B17AAE1CCDC6C6001D605A /* MASLayoutConstraint.m in Sources */,
+				53B17AC61CCDC8E3001D605A /* CardView.m in Sources */,
 				533120B41CC738420032BF00 /* HomeViewController.swift in Sources */,
+				53B17AB01CCDC6C6001D605A /* MASViewConstraint.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -289,10 +405,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = "ConvenientBiZhi-Swift/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Convenient.ConvenientBiZhi-Swift";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "ConvenientBiZhi-Swift/ConvenientBiZhi.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
@@ -300,10 +419,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = "ConvenientBiZhi-Swift/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Convenient.ConvenientBiZhi-Swift";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "ConvenientBiZhi-Swift/ConvenientBiZhi.h";
 			};
 			name = Release;
 		};
