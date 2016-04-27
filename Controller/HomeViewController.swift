@@ -7,11 +7,13 @@
 //
 
 import UIKit
+import Alamofire
 
 class HomeViewController: UIViewController,YSLDraggableCardContainerDelegate,YSLDraggableCardContainerDataSource{
     
     var container : YSLDraggableCardContainer?
     var datas : NSMutableArray?
+    var itemArroy : NSMutableArray?
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -35,10 +37,30 @@ class HomeViewController: UIViewController,YSLDraggableCardContainerDelegate,YSL
 //        }
         self.loadDate()
         container?.reloadCardContainer()
+        
+        
     }
     
     func loadDate(){
-        
+        Alamofire.request(.GET, "http://m.lovebizhi.com/category/1", parameters:nil ).responseString {response in
+            switch response.result {
+            case .Success:
+                 debugPrint(response.result)
+                 let dataImage = response.result.value?.dataUsingEncoding(NSUTF8StringEncoding)
+                 let xpathParser = TFHpple().dynamicType.init(HTMLData: dataImage)
+                 let elements = xpathParser.searchWithXPathQuery("//html/body/div/div/ul/li/a/img")
+                 if self.itemArroy  == nil{
+                    self.itemArroy = NSMutableArray()
+                 }
+                 for  temp  in elements{
+                    print(temp)
+                 }
+                break
+            case .Failure(let error):
+                debugPrint(error)
+                break
+            }
+        }
     }
     
     func cardContainerViewNumberOfViewInIndex(index: Int) -> Int {
